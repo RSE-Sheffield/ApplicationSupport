@@ -27,7 +27,7 @@ The University licence includes the following individual components for Windows,
 ## Licensing notes
 Intel Compilers are licensed using network based license at the University of Sheffield. Therefore, you need to be connected to the University network for both installation of the software and during compilation of source code (not when running your executables). If working off-site you need to be connected to the University VPN client.
 
-Our current license support 5 Windows, 5 Linux, and 2 OS X concurrent compilations site-wide. Due to the limited number of network licenses available this compiler is suitable for research purposes only (i.e. **not suitable for teaching use**).
+Our current license supports 5 Windows, 5 Linux, and 2 OS X concurrent compilations site-wide. Due to the limited number of network licenses available this compiler is suitable for research purposes only (i.e. **not suitable for teaching use**).
 
 ## Getting the software
 The latest version of the Intel C++ Compiler can be obtained via the [Software download service](https://cics.dept.shef.ac.uk/software/).
