@@ -1,0 +1,57 @@
+Software request
+
+This message contains details of software licensed for use by The University of Sheffield as described below.  It is sent to the registered email address of the person who requested it.  If you are not that person please delete the message without passing it to anyone else.  Unauthorised personnel may not make use of this information.
+
+Software product: Intel Parallel Studio XE Composer Edition
+
+Versions:
+XE 2017 for Windows and Linux (For Fortran and C++)
+XE 2017 for Mac OS X (C++ only)
+XE 2011 (Update 6) version for compatibility with Abaqus
+
+Warnings:
+Use of the software is governed by a legal licence agreement between the University and the supplier. The basic terms are listed below. If you break these terms the supplier could cancel the agreement and we would not be able to use the software at all.
+
+If you use the software it will be assumed that you have understood and agreed to follow the licence terms.
+The most important points are:
+(a) Only use the software if you are entitled to do so (see Eligibility).
+(b) Only install it on permitted machines (see Eligibility).
+(c) Do not give your software or licence code to anyone else.  Each person must obtain their own so that their use of the product can be properly recorded.
+
+Elegibility:
+
+For download and installation by: Current University of Sheffield staff and students.
+For use by: Any member of the University of Sheffield
+For use on computers owned by: The University of Sheffield or its members
+Licensed purposes: University-related work. Commercial or NHS work is not allowed.
+
+Licensing:
+
+Intel Compilers are licensed using network license servers at the University of Sheffield. Therefore you need to be connected to the University network for installation and during compilation of source code. If working off-site you will need to be connected to the University VPN service.
+Our licence supports up to 5 Windows, 5 Linux, and 2 OS X concurrent compilations site-wide. Although this is sufficient for typical research usage, it is insufficient for teaching large classes.
+
+The University of Sheffield has site licenses for a range of compilers, some of which are suitable  Refer to the Fortran, C and C++ sections of the University Research Software Engineering Resources page (http://rse.shef.ac.uk/resources/) for more details on available compilers.
+
+The following components are included in the Intel Compiler:
+* Intel C/C++ Compiler
+* Intel Math Kernel Library
+* Intel Threading Building Blocks
+* Intel Xheon Phi processor software
+* Intel Data Analytics Acceleration Library
+* Intel Integrated Performance Primitives
+* Intel Fortran Compiler (Windows and Linux only, OS X users need to download the Fortran Compiler separately from *******)
+* Intel Distribution for Python (OS X only)
+* Intel HD Graphic Drivers (Linux only)
+
+Downloading the software
+-Intel Parallel Studio XE Composer Edition for C++ for OS X
+******FOR PETER TO ADD THE LINK*********
+
+-Intel Parallel Studio XE Composer for C++ and Fortran for Linux
+******FOR PETER TO ADD THE LINK*********
+
+-Intel Parallel Studio XE Composer for C++ and Fortran for Windows
+******FOR PETER TO ADD THE LINK*********
+
+
+General information on University software:  www.shef.ac.uk/cics/software
