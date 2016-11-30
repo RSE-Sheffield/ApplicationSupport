@@ -28,7 +28,7 @@ Licensed purposes: University-related work. Commercial or NHS work is not allowe
 Licensing:
 
 Intel Compilers are licensed using network license servers at the University of Sheffield. Therefore you need to be connected to the University network for installation and during compilation of source code. If working off-site you will need to be connected to the University VPN service.
-Our licence supports up to 5 Windows, 5 Linux and 2 OS X concurrent compilations site-wide. Although this is sufficient for typical research usage, it is insufficient for teaching large classes.
+Our licence supports up to 5 Windows, 5 Linux and 2 Mac OS X concurrent compilations site-wide. Although this is sufficient for typical research usage, it is insufficient for teaching large classes.
 
 The University of Sheffield has site licenses for a range of compilers, some of which are suitable for teaching purposes. Please refer to the Fortran, C and C++ sections of the University Research Software Engineering Resources page (http://rse.shef.ac.uk/resources/) for more details on available compilers.
 
@@ -40,11 +40,11 @@ The following components are included in the Intel Compiler:
 * Intel Data Analytics Acceleration Library
 * Intel Integrated Performance Primitives
 * Intel Fortran Compiler (Windows and Linux only, Mac OS X users need to download the Fortran Compiler separately if needed)
-* Intel Distribution for Python (OS X only)
+* Intel Distribution for Python (Mac OS X only)
 * Intel HD Graphic Drivers (Linux only)
 
 Downloading the software
--Intel Parallel Studio XE Composer Edition for C++ for OS X
+-Intel Parallel Studio XE Composer Edition for C++ for Mac OS X
 ******FOR PETER TO ADD THE LINK ********
 
 -Intel Parallel Studio XE Composer for C++ and Fortran for Linux
