@@ -8,7 +8,7 @@ Software product: Intel Parallel Studio XE Composer Edition for Fortran and C++ 
 Versions:
 XE 2017 for Windows and Linux (For Fortran and C++)
 XE 2017 for Mac OS X (Fortran only)˜
-XE 2011 (Update 6) version for compatibility with Abaqus (Windows and Linux only: this should be requested via the software download service)
+XE 2016 (Update 1) version for compatibility with Abaqus (Windows and Linux only: this should be requested via the software download service)
 
 Warnings:
 Use of the software is governed by a legal licence agreement between the University and the supplier. The basic terms are listed below. If you break these terms the supplier could cancel the agreement and we would not be able to use the software at all.

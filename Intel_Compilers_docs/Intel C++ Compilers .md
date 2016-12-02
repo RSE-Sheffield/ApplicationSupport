@@ -11,7 +11,7 @@ The intel C++ Compiler is a highly optimising C++ compiler suitable for both Int
 * **Linux:** Intel Parallel Studio XE Composer Edition for Fortran and C++: Version 2017
 * **Mac OS X:** Intel Parallel Studio XE Composer Edition for C++: Version 2017
 
-Note: the XE 2011 (Update 6) version is available for ABAQUS users who need to implement user subroutines. This version can be downloaded from the [Software download service](https://cics.dept.shef.ac.uk/software/).
+Note: the XE 2016 (Update 1) version is available for ABAQUS users who need to implement user subroutines. This version can be downloaded from the [Software download service](https://cics.dept.shef.ac.uk/software/).
 
 The University licence includes the following individual components for Windows, Linux and Mac OS X:
 * Intel C/C++ Compiler
