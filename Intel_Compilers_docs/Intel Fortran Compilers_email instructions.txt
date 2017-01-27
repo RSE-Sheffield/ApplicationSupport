@@ -7,7 +7,7 @@ Software product: Intel Parallel Studio XE Composer Edition for Fortran and C++ 
 
 Versions:
 XE 2017 for Windows and Linux (For Fortran and C++)
-XE 2017 for Mac OS X (Fortran only)˜
+XE 2017 for Mac OS X (Fortran only)
 XE 2016 (Update 1) version for compatibility with Abaqus (Windows and Linux only: this should be requested via the software download service)
 
 Warnings:
