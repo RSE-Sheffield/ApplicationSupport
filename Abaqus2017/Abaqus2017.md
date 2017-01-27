@@ -39,3 +39,5 @@ Due to the limited number of licenses available users are encouraged to terminat
 
 ## Getting the software
 The latest version of the Intel Fortran Compilers can be obtained via the [Software download service](https://cics.dept.shef.ac.uk/software/).
+
+Please note that as the installation file contains the full Integrated System package (Abaqus, Isight, and Tosca) the .iso image size is considerably big (11 GB). Make sure you download the file to a location with enough free space. 
