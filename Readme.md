@@ -1,24 +1,37 @@
-Install instructions for Sheffield's CiCS
+#  Applications support for CiCS
 
-Required outputs for each application
+This repository contains the installation instructions for various applications available at The University of Sheffield CiCS software download system. The main aim is to keep the applications and installation procedures updated regularly.
 
-# For Rosemary Snowden (CiCS)
+For each application the following ouptputs are required:
 
 ## Front page for https://www.sheffield.ac.uk/cics/software/available
 
-Contains very basic information
-
+Contains very basic information:
 - Function
 - Eligibility
 - Versions
 - Getting the Software
 
-Email this to Rosemary Snowden
+This needs to be emailed to Rosemary Snowden at CiCS (link to .md file in the repository).
 
-# For Peter Armstrong (CiCS)
 
-## An email with detailed information for the download service
+## Detailed information for the application download
 
-## If ncessary, .pdf files containing detailed install instructions for each version/OS.
+The information should be provided in a .txt file as this information is sent via email. This document should contain more detailed information than the Front Page document i.e.
+- License details
+- Versions available and OS supported
+- Elegibility
+- Packages contained in the application (if applicable)
+- Installation and licensing instructions
 
-## The installer we want to release
+ In special cases .pdf files containing detailed installation/integration instructions might be required.
+
+ The .txt and .pdf files should be emailed to Peter Armstrong at CiCS.
+
+## The application that needs to be installed
+ The person in charge should find an appropriate means to share the iso/binary files with Peter Armstrong (e.g. Dropbox, make sure to delete the folder after Peter has downloaded the file).
+
+## Applications currently supported by the RSE team:
+
+- Abaqus 2017
+- Intel XE Compilers (C/C++, Fortran)
