@@ -2,7 +2,7 @@
 
 This repository contains the installation instructions for various applications available at The University of Sheffield CiCS software download system. The main aim is to keep the applications and installation procedures updated regularly.
 
-For each application the following ouptputs are required:
+The following outputs are required for each application:
 
 ## Front page for https://www.sheffield.ac.uk/cics/software/available
 
@@ -20,7 +20,7 @@ This needs to be emailed to Rosemary Snowden at CiCS (link to .md file in the re
 The information should be provided in a .txt file as this information is sent via email. This document should contain more detailed information than the Front Page document i.e.
 - License details
 - Versions available and OS supported
-- Elegibility
+- Eligibility
 - Packages contained in the application (if applicable)
 - Installation and licensing instructions
 
@@ -33,5 +33,9 @@ The information should be provided in a .txt file as this information is sent vi
 
 ## Applications currently supported by the RSE team:
 
-- Abaqus 2017
+- Abaqus
 - Intel XE Compilers (C/C++, Fortran)
+- Mathematica
+- PGI Compilers
+- Maple
+- NAG libraries and compilers
