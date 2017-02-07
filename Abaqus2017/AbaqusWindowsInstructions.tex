@@ -52,7 +52,9 @@ Before installing Abaqus make sure you have read and understood the license requ
 \section{Supported compilers for Abaqus 2017}
 Before you install the C/C++ and Fortran compilers you need to make sure you have a supported version of Microsoft Visual Studio as this links the compiled code with the required libraries to be used with the Abaqus solver.
 
-Visual Studio 2015 Community Edition can be downloaded for free from the \href{https://www.Microsoft.com/en-us/download}{Microsoft download centre}).  
+Please note that the recommended Visual Studio version is VS2012 as some libraries have been redefined in the 2015 version (\url{https://msdn.microsoft.com/en-us/library/bb531344.aspx#BK_CRT}).
+
+If you want to use a different VS version it should be done at your own discretion. Visual Studio 2015 Community Edition can be downloaded for free from the \href{https://www.Microsoft.com/en-us/download}{Microsoft download centre}).  
 If you already have another version of Microsoft Visual Studio installed you can still have VS 2015 installed alongside.
 You can use the Community, Professional or Enterprise edition, but \textbf{not} the Express edition as this will not work along with Abaqus. 
 
@@ -142,6 +144,8 @@ If you need to work with subroutines you need to complete the Post-Installation 
 
 \section{Post-installation tasks}
 \subsection{Path/short-cuts modification for subroutines} \label{sec:path}
+Please note that the instructions detailed here are based on VS2012 so the paths and variables should be changed accordingly for other VS versions.
+
 To get user subroutines working with the Intel Compiler XE 2016, copy the .bat file: \path{<donwloadir>\Abaqus2017\abaqus_set_env.bat} to your local directory: \path{C:\SIMULIA} and modify the Abaqus start menu short cuts:
 
 \textbf{In Windows 8 and 10:}
@@ -172,10 +176,11 @@ To get user subroutines working with the Intel Compiler XE 2016, copy the .bat f
 Note that the "\path{abaqus_set_env.bat}" file calls the various compilers and dependencies needed for to compile the Fortran subroutines. If you changed the default installation location for Visual Studio or Intel XE Composer  you need to amend the paths in the .bat file. 
 
 If you prefer to manually add the compilers paths to Abaqus CAE, command, and verification you first need to find the location of your Fortran compilers which should look something like this: 
-\bigbreak
-\path{C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2016.1.146}\newline
-\path{\windows\bin\ipsxe-comp-vars.bat} 
-\bigbreak
+
+%\bigbreak
+%\path{C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2016.1.146}\newline
+%\path{\windows\bin\ipsxe-comp-vars.bat} 
+%\bigbreak
 \path{C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2016.1.146}\newline
 \path{\windows\bin\ifortvars.bat}
 \bigbreak
@@ -184,14 +189,18 @@ You will then need to pass these paths directly to Abaqus along with the VS Stud
 
 \begin{itemize}
 \item \textbf{Abaqus CAE }\\
-\path{"C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2016.1.146\windows} \newline 
-\path{\bin\ipsxe-comp-vars.bat" intel64 vs 2015 && "C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2016.1.146\windows\bin\ifortvars.bat" intel64 vs2015 && C:\SIMULIA\Commands\abaqus2017.bat cae || pause}
+%\path{"C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2016.1.146\windows} \newline 
+%\path{\bin\ipsxe-comp-vars.bat" intel64 vs 2015 && 
+
+\path{"C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2016.1.146\windows\bin\ifortvars.bat" intel64 vs2012 && C:\SIMULIA\Commands\abaqus2017.bat cae || pause}
 \item \textbf{Abaqus Command }\\
-\path{"C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2016.1.146\windows} \newline 
-\path{\bin\ipsxe-comp-vars.bat" intel64 vs 2015 && "C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2016.1.146\windows\bin\ifortvars.bat" intel64 vs2015 && C:\Windows\SysWOW64\cmd.exe /k}
-\item \textbf{Abaqus CAE }\\
-\path{"C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2016.1.146\windows} \newline 
-\path{\bin\ipsxe-comp-vars.bat" intel64 vs 2015 && "C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2016.1.146\windows\bin\ifortvars.bat" intel64 vs2015 && } \newline 
+%\path{"C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2016.1.146\windows} \newline 
+%\path{\bin\ipsxe-comp-vars.bat" intel64 vs 2015 && 
+\path{"C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2016.1.146\windows\bin\ifortvars.bat" intel64 vs2012 && C:\Windows\SysWOW64\cmd.exe /k}
+\item \textbf{Abaqus Verification }\\
+%\path{"C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2016.1.146\windows} \newline 
+%\path{\bin\ipsxe-comp-vars.bat" intel64 vs 2015 && 
+\path{"C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2016.1.146\windows\bin\ifortvars.bat" intel64 vs2012 && } \newline 
 \path{C:\SIMULIA\CAE\2016\win_b64\resources\install\cae\launcher.bat -verify -all -log && notepad.exe
 verify.log || notepad.exe verify.log}
 \end{itemize}
@@ -201,7 +210,7 @@ Once again make sure there is a space on either side of the \textbf{\&\&}, also 
 \subsection{Set your environment variables}
 \begin{enumerate}
 \item Double-click on the \textbf{vcvarsall.bat} file, which should be found on a path similar to\\
-\path{C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcvasrsall.bat}
+\path{C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\vcvasrsall.bat}
 \item Double-click on the \textbf{ifortvars.bat} file, which should be found on a path similar to\\
 \path{C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2016.1.146\windows\bin\ifortvars.bat}
 \item Open an Abaqus command prompt and type \textbf{set>path.info}
