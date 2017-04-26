@@ -229,6 +229,8 @@ Start Menu $\rightarrow$ Dassault Systemes SIMULIA Abaqus 2017 $\rightarrow$ Aba
 A series of tests will be run automatically, the tests should then be reported as PASS in the verify.log file. If Abaqus has not been correctly configured to run Fortran subroutines and C++ compilers then the corresponding tests will fail and you will prompted to look at the log file for the failed test.
  
  If the compilation of the Fortran subroutine fails, it is possible that there exist some integration issues between Fortran and Visual Studio. Please refer to this page in the \href{https://software.intel.com/en-us/articles/troubleshooting-fortran-integration-issues-with-visual-studio}{Intel Developer Zone} for integration issues troubleshooting.
+ 
+ Alternatively, you can only test for the standard user subroutines by launching an Abaqus command prompt and type: \textbf{"abaqus verify -user_std"}. This will only verify the user subroutines and the results will be stored in your default working directory. Check that every test passes.
 \end{document}
 
 Alternatively, you can only test for the standard user subroutines by launching an Abaqus command prompt and type: \textbf{"abaqus verify -user_std"}. This will only verify the user subroutines and the results will be stored in your default working directory. Check that every test passes.
