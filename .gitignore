@@ -1,0 +1,18 @@
+
+\.DS_Store
+
+*.aux
+
+*.log
+
+*.out
+
+Abaqus2017/lib_set_path\.txt
+
+Intel_Windows_instructions/Intel_Installation instructions_Windows\.pdf
+
+Abaqus2017/pat_set_path\.txt
+
+*.gz
+
+Abaqus2017/AbaqusWindowsInstructions\.pdf

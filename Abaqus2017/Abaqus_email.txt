@@ -1,0 +1,46 @@
+Software request
+
+This message contains details of software licensed for use by The University of Sheffield as described below.  It is sent to the registered email address of the person who requested it.  If you are not that person please delete the message without passing it to anyone else.  Unauthorised personnel may not make use of this information.
+
+Software Product: Abaqus unified FEA
+Version: 2017
+Operating systems: Windows and Linux
+
+Warnings:
+Use of the software is governed by a legal licence agreement between the University and the supplier. The basic terms are listed below. If you break these terms the supplier could cancel the agreement and we would not be able to use the software at all.
+
+If you use the software it will be assumed that you have understood and agreed to follow the licence terms.
+The most important points are:
+(a) Only use the software if you are entitled to do so (see Eligibility).
+(b) Only install it on permitted machines (see Eligibility).
+(c) Do not give your software or licence code to anyone else.  Each person must obtain their own so that their use of the product can be properly recorded.
+
+Elegibility:
+
+For download and installation by: Current University of Sheffield staff and students.
+For use by: Any member of the University of Sheffield
+For use on computers owned by: The University of Sheffield or its members
+Licensed purposes: University-related work. Commercial or NHS work is not allowed.
+
+Licensing:
+Abaqus is licensed using network based licenses at the University of Sheffield. Therefore, you need to be connected to the University network during installation and use of the software.
+
+Current licence:
+Dates: current - 31st December 2017.
+Codes: Not required. The software is validates by connecting to the University license server.
+During installation Abaqus will ask for the location of the license server. You should fill in the box headed "License server 1 (REQUIRED)" exactly as:
+27000@abaquslm.sheff.ac.uk
+
+Note that from version 2016 the installation procedure has changed. For a detailed installation guide please download the pdf guide (link at the bottom of this email).
+
+For the use of user subroutines or post-processing code, you need to have a Fortran compiler installed.
+Please visit the University software service webpage (http://www.sheffield.ac.uk/cics/software/available) for further information and to download the compilers.
+
+Downloading the software:
+Main iso image:
+********** FOR PETER TO UPDATE THE LINK ***************
+
+Installation instructions:
+For detailed instructions download the following pdf:
+********** FOR PETER TO UPDATE THE LINK ***************
+The pdf above also includes instructions on how to set up Abaqus for subroutine use.
